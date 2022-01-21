@@ -8,17 +8,35 @@
 <body>
 	<h1>How to upload files to GitHub Host by Git Bash [Below are the commands step by step] </h1>
 
-ls <br>
-cd <br>
-git init <br>
-git remote add origin [gitLink] <br>
-git remote -v <br>
-git add . <br>
-git commit -m "First commit" <br>
-git push origin master <br>
+<p> First Step</p> <br>
+	
+echo "# fucking-command" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Anirbanjyoti/fucking-command.git
+git push -u origin main
 
+<p> Second Step</p> <br>
 
+git add .
+git commit -m "commit Message"
+git push
+	
 <hr>
+<p> To Change Directory </p>
+
+ls <br>
+	
+C:\Users\USER>cd.. <br>
+
+C:\Users>cd USER <br>
+
+C:\Users\USER>
+	
+<hr>
+	
 ls- List all the files in the current directory  <br><br>
 
 If your source code is in the different directory, you need to change the directory on git bash with command cd followed by directory or path. <br>
